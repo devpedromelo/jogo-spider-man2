@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 610px){
+    header {
+      min-height: 100vh;
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgb(183 28 28 / 62%)), url(../imagens/SpiderMan-header.jpg) center/cover no-repeat;
+      background-position: top;
+      background-attachment: fixed;
+    }
+}
+
+@media screen and (min-width: 626px) {
+
+    #sobre article, #lançamento article {
+        border-radius: 8px;
+        height: 385px;
+        max-width: 515px;
+    }
+
+    #sobre article{
+        margin-right: auto;
+        margin-top: 212px;
+    }
+
+    #sobre article p{
+        font-size: 1.3rem;
+        padding: 15px;
+      }
+
+    #lançamento article{
+        margin-left: auto;
+        margin-top: 260px;
+        margin-right: 1em;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    #sobre article p{
+        font-size: 1.3rem;
+        padding: 15px;
+      }
+}
+
+@media screen and (min-width: 768px) {
+    #sobre article{
+        margin-left: 2em;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    h1 {
+      font-size: 4rem;
+    }
+    h2 {
+      font-size: 2.5rem;
+    }
+    h3 {
+      font-size: 1.75rem;
+    }
+    h4 {
+      font-size: 1rem;
+    }
+    body {
+      font-size: 1rem;
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+      line-height: 1;
+    }
+
+    nav {
+        background: transparent;
+      }
+      .nav-center {
+        width: 90vw;
+        max-width: 1170px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .nav-header {
+        padding: 0;
+      }
+      .nav-toggle {
+        display: none;
+      }
+      .links-container {
+        height: auto !important;
+      }
+      .links {
+        display: flex;
+      }
+      .links a {
+        background: transparent;
+        color: var(--clr-white);
+        font-size: 1.1rem;
+        text-transform: capitalize;
+        letter-spacing: var(--spacing);
+        display: block;
+        transition: var(--transition);
+        margin: 0 1rem;
+        font-weight: bold;
+        padding: 0;
+      }
+      .links a:hover {
+        background-color: transparent;
+        color: var(--clr-white);
+      }
+      .fixed-nav .links a:hover {
+        background-color: transparent;
+        color: var(--clr-white);
+      }
+
+      #sobre .section{
+        background-color: #363636;
+        color: var(--clr-white);
+        border-radius: 8px;
+        height: 450px;
+        max-width: 420px;
+        margin-left: 2em;
+        box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.474);
+        margin-top: 60px;
+      } 
+    
+      #sobre article p{
+        font-size: 1.2rem;
+        text-align: justify;
+        line-height: 2.3rem;
+        padding: 20px;
+      }
+
+      #teorias{
+        height: 330vh;
+      }
+
+      #teorias .title{
+        margin-top: -180px;
+      }
+
+      #teorias .article{
+        height: 275vh;
+        margin-top: 20px;
+      } 
+
+      #teorias1, #teorias3{
+        justify-items: end;
+        column-gap: 20px;
+      } 
+
+      .article img{
+        width: 770px;
+        height: 400px;
+        border-radius: 10px;
+      }
+
+      #lançamento{
+        margin-top: -180px;
+      }
+
+      #trailer article{
+        padding: 20px;
+      }
+  }
+
+  @media screen and (min-width: 992px) {
+    .section-center {
+      width: 95vw;
+    }
+  }

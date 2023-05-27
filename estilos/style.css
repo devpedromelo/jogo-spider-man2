@@ -247,7 +247,7 @@ header {
 
 #sobre .title{
   background-color: transparent;
-  box-shadow: inset 5px 5px 5px #0000007a;
+  box-shadow: inset 1px 7px 5px #0000007a;
 }
 
 /* sections and title */
@@ -276,16 +276,6 @@ header {
   /* margin-bottom: 20px; */
 }
 
-/* #sobre {
-  background-color: #262642;
-  background-image: linear-gradient(to right,#282828, #262642, transparent, transparent), url(../imagens/spider-man-peter-parker.jpg);
-  background-size: contain;
-  background-position: right;
-  background-repeat: no-repeat;
-  margin-top: 15px;
-  margin-bottom: 80px;
-} */
-
 #sobre h2{
   background-color: #fff;
   padding-top: 0px;
@@ -294,14 +284,6 @@ header {
   border-radius: 0px 0px 30px 30px;
   font-size: 1.8rem;
 }
-
-/* #sobre h2{
-  background-color: #fff;
-  padding-top: 20px;
-  width: 240px;
-  margin: auto;
-  border-radius: 0px 0px 30px 30px;
-} */
 
 #sobre article{
   background-color: #363636;
@@ -321,13 +303,6 @@ article p{
   line-height: 2.1rem;
   padding: 15px;
 }
-
-/* #sobre article p{
-  font-size: 1.6rem;
-  text-align: justify;
-  line-height: 2.5rem;
-  padding: 20px;
-} */
 
 #teorias{
   height: 290vh;

@@ -170,3 +170,77 @@
       width: 95vw;
     }
   }
+
+  @media screen and (min-width: 1028px){
+
+    #sobre {
+        margin-top: 15px;
+        margin-bottom: 80px;
+      }
+
+      #sobre article{
+        background-color: #363636;
+        color: var(--clr-white);
+        border-radius: 8px;
+        height: 460px;
+        max-width: 570px;
+        box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.474);
+        margin-top: 125px;
+        transition: var(--transition);
+      }
+
+      #sobre article p{
+        font-size: 1.6rem;
+        text-align: justify;
+        line-height: 2.5rem;
+        padding: 20px;
+      }
+
+    .article img{
+        width: 600px;
+        height: 300px;
+        border-radius: 10px;
+    }
+  }
+
+  @media screen and (min-width: 1140px){
+    #sobre {
+        background-image: linear-gradient(to right,#282828, #262642, transparent, transparent, transparent), url(../imagens/spider-man-peter-parker.jpg);
+        background-size: contain;
+        background-position: right;
+        background-repeat: no-repeat;
+        margin-top: 15px;
+        margin-bottom: 80px;
+      }
+  }
+
+  @media screen and (min-width: 1240px){
+    #sobre {
+        background-image: linear-gradient(to right,#282828, #262642, transparent, transparent, transparent), url(../imagens/spider-man-peter-parker.jpg);
+      }
+
+    #sobre h2{
+        background-color: #fff;
+        padding-top: 20px;
+        width: 240px;
+        margin: auto;
+        border-radius: 0px 0px 30px 30px;
+      } 
+
+      #sobre article{
+        margin-top: 65px;
+        max-width: 670px;
+      }
+  }
+
+  @media screen and (min-width: 1240px){
+    #sobre {
+        background-image: linear-gradient(to right,#282828, #262642, transparent, transparent), url(../imagens/spider-man-peter-parker.jpg);
+      }
+
+      #sobre article{
+        margin-top: 100px;
+        max-width: 670px;
+        height: 470px;
+      }
+  }

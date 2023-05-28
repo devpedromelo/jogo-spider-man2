@@ -67,3 +67,7 @@ scrollLinks.forEach(function(link){
         linksContainer.style.height = 0
     });
 });
+
+//======================implementando o scroll reveal=====================
+window.sr = ScrollReveal({reset:true});
+sr.reveal(".animate__animated", {duration: 1200});

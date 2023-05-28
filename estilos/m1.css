@@ -7,6 +7,10 @@
       background-position: top;
       background-attachment: fixed;
     }
+
+    #trailer article{
+        padding: 0px 30px;
+    }
 }
 
 @media screen and (min-width: 626px) {
@@ -22,27 +26,40 @@
         margin-top: 212px;
     }
 
-    #sobre article p{
+    #sobre article p, #lançamento article p{
         font-size: 1.3rem;
         padding: 15px;
       }
 
     #lançamento article{
         margin-left: auto;
-        margin-top: 260px;
+        margin-top: 265px;
         margin-right: 1em;
     }
 }
 
 @media screen and (min-width: 640px) {
-    #sobre article p{
+    #sobre article p, #lançamento article p{
         font-size: 1.3rem;
         padding: 15px;
       }
 }
 
+@media screen and (min-width: 647px) {
+    #lançamento{
+        margin-top: -350px;
+    }
+}
+
+@media screen and (min-width: 737px) {
+    #lançamento{
+        margin-top: -300px;
+    }
+}
+
 @media screen and (min-width: 768px) {
     #sobre article{
+        margin-top: 240px;
         margin-left: 2em;
     }
 }
@@ -125,7 +142,7 @@
         margin-top: 60px;
       } 
     
-      #sobre article p{
+      #sobre article p, #lançamento article p{
         font-size: 1.2rem;
         text-align: justify;
         line-height: 2.3rem;
@@ -134,6 +151,7 @@
 
       #teorias{
         height: 330vh;
+        justify-content: center;
       }
 
       #teorias .title{
@@ -157,11 +175,20 @@
       }
 
       #lançamento{
-        margin-top: -180px;
+        margin-top: -400px;
+      }
+
+      #lançamento h2{
+        width: 400px;
+        padding: 15px;
       }
 
       #trailer article{
-        padding: 20px;
+        padding: 0px 40px;
+      }
+
+      #trailer iframe{
+        height: 480px;
       }
   }
 
@@ -169,6 +196,10 @@
     .section-center {
       width: 95vw;
     }
+
+    #trailer article{
+        padding: 0px 60px;
+      }
   }
 
   @media screen and (min-width: 1028px){
@@ -185,11 +216,11 @@
         height: 460px;
         max-width: 570px;
         box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.474);
-        margin-top: 125px;
+        margin-top: 185px;
         transition: var(--transition);
       }
 
-      #sobre article p{
+      #sobre article p, #lançamento article p{
         font-size: 1.6rem;
         text-align: justify;
         line-height: 2.5rem;
@@ -197,10 +228,36 @@
       }
 
     .article img{
-        width: 600px;
-        height: 300px;
+        width: 500px;
+        height: 300px;    
         border-radius: 10px;
     }
+
+    #teorias article{
+        display: grid;
+        align-items: start;
+      }
+
+      #teorias1, #teorias2, #teorias3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        padding: 20px;
+      }
+
+      #lançamento{
+        margin-top: -1040px;
+      }
+
+      #lançamento article{
+        margin-top: 180px;
+        max-width: 630px;
+      }
+
+      #trailer article{
+        padding: 0px 80px;
+      }
   }
 
   @media screen and (min-width: 1140px){
@@ -212,19 +269,37 @@
         margin-top: 15px;
         margin-bottom: 80px;
       }
+
+      #lançamento{
+        /* background-image: linear-gradient(to left,#282828, #7c7c7c, transparent, transparent, transparent), url(../imagens/spider-man-miles-morales.webp); */
+        margin-top: -1090px;
+        /* background-size: contain; */
+      }
+
+      #trailer article{
+        padding: 0px 80px;
+      }
+  }
+
+  @media screen and (min-width: 1200px){
+    #lançamento{
+        margin-top: -1120px;
+      }
+
+      #trailer iframe{
+        height: 590px;
+      }
+
+      footer{
+        margin-top: 80px;
+      }
   }
 
   @media screen and (min-width: 1240px){
-    #sobre {
-        background-image: linear-gradient(to right,#282828, #262642, transparent, transparent, transparent), url(../imagens/spider-man-peter-parker.jpg);
-      }
 
     #sobre h2{
-        background-color: #fff;
-        padding-top: 20px;
-        width: 240px;
-        margin: auto;
-        border-radius: 0px 0px 30px 30px;
+        width: 210px;
+        font-size: 2.2em;
       } 
 
       #sobre article{
@@ -235,12 +310,37 @@
 
   @media screen and (min-width: 1240px){
     #sobre {
-        background-image: linear-gradient(to right,#282828, #262642, transparent, transparent), url(../imagens/spider-man-peter-parker.jpg);
+        background-image: linear-gradient(to right,#282828, #262642, transparent, transparent, transparent), url(../imagens/spider-man-peter-parker.jpg);
       }
 
       #sobre article{
-        margin-top: 100px;
+        margin-top: 150px;
         max-width: 670px;
         height: 470px;
+      }
+
+      #lançamento{
+        /* background-image: linear-gradient(to left,#282828, #7c7c7c, transparent, transparent), url(../imagens/spider-man-miles-morales.webp); */
+        margin-top: -1280px;
+    }
+
+    #lançamento h2{
+        width: 290px;
+        padding: 15px;
+        font-size: 2em;
+    }
+  }
+
+  @media screen and (min-width: 1332px){
+    #lançamento{
+        margin-top: -1370px;
+    }
+
+    #lançamento article{
+        margin-right: 3.2em;
+    }
+
+    #trailer article{
+        padding: 0px 150px;
       }
   }

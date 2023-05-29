@@ -23,12 +23,17 @@
 
     #sobre article{
         margin-right: auto;
-        margin-top: 212px;
+        margin-top: 290px;
+        margin-left: 1rem;
     }
 
     #sobre article p, #lançamento article p{
-        font-size: 1.3rem;
-        padding: 15px;
+      font-size: 1.3rem;
+      line-height: 2rem;
+      }
+
+      #lançamento article p{
+        line-height: 2.1rem;
       }
 
     #lançamento article{
@@ -47,20 +52,21 @@
 
 @media screen and (min-width: 647px) {
     #lançamento{
-        margin-top: -350px;
+        margin-top: -430px;
     }
 }
 
 @media screen and (min-width: 737px) {
     #lançamento{
-        margin-top: -300px;
+        margin-top: -395px;
     }
 }
 
 @media screen and (min-width: 768px) {
     #sobre article{
-        margin-top: 240px;
-        margin-left: 2em;
+      height: 390px;
+      margin-top: 280px;
+      margin-left: 2em;
     }
 }
 
@@ -85,6 +91,10 @@
     h3,
     h4 {
       line-height: 1;
+    }
+
+    h1{
+      font-size: 4rem;
     }
 
     nav {
@@ -141,21 +151,26 @@
         box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.474);
         margin-top: 60px;
       } 
+
+      #sobre article{
+        height: 442px;
+        margin-top: 250px;
+        margin-left: 2em;
+      }
     
       #sobre article p, #lançamento article p{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
+        line-height: 2.2rem;
         text-align: justify;
-        line-height: 2.3rem;
-        padding: 20px;
       }
 
       #teorias{
-        height: 330vh;
+        height: 360vh;
         justify-content: center;
       }
 
       #teorias .title{
-        margin-top: -180px;
+        margin-top: -360px;
       }
 
       #teorias .article{
@@ -175,7 +190,7 @@
       }
 
       #lançamento{
-        margin-top: -400px;
+        margin-top: -450px;
       }
 
       #lançamento h2{
@@ -204,6 +219,10 @@
 
   @media screen and (min-width: 1028px){
 
+    #sobre h2, #teorias h2{
+      font-size: 2em;
+    }
+
     #sobre {
         margin-top: 15px;
         margin-bottom: 80px;
@@ -216,15 +235,17 @@
         height: 460px;
         max-width: 570px;
         box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.474);
-        margin-top: 185px;
+        margin-top: 205px;
         transition: var(--transition);
       }
 
       #sobre article p, #lançamento article p{
-        font-size: 1.6rem;
-        text-align: justify;
-        line-height: 2.5rem;
-        padding: 20px;
+        font-size: 1.4rem;
+        max-width: 545px;
+      }
+
+      #lançamento article p{
+        font-size: 1.3rem;
       }
 
     .article img{
@@ -246,12 +267,40 @@
         padding: 20px;
       }
 
+      #teorias .title{
+        margin-top: -470px;
+      }
+
+      .teorias p{
+        font-size: 1.4em;
+        padding: 20px;
+        text-align: justify;
+        line-height: 1.7em;
+        max-width: 850px;
+      }
+
+      #teorias2{
+        grid-template-areas: 'e d';
+      }
+
+      #teorias2 img{
+        grid-area: d;
+      }
+
+      #teorias h2{
+        font-size: 2.3em
+      }
+
+      #teorias2 p{
+        grid-area: e;
+      }
+
       #lançamento{
-        margin-top: -1040px;
+        margin-top: -1520px;
       }
 
       #lançamento article{
-        margin-top: 180px;
+        margin-top: 265px;
         max-width: 630px;
       }
 
@@ -272,7 +321,7 @@
 
       #lançamento{
         /* background-image: linear-gradient(to left,#282828, #7c7c7c, transparent, transparent, transparent), url(../imagens/spider-man-miles-morales.webp); */
-        margin-top: -1090px;
+        margin-top: -1520px;
         /* background-size: contain; */
       }
 
@@ -283,11 +332,28 @@
 
   @media screen and (min-width: 1200px){
     #lançamento{
-        margin-top: -1120px;
+        margin-top: -1600px;
       }
 
       #trailer iframe{
         height: 590px;
+      }
+
+      #sobre article{
+        margin-top: 200px;
+        max-width: 670px;
+      }
+
+      #sobre article p, #lançamento article p{
+        line-height: 2.5rem;
+        max-width: 650px;
+        font-size: 1.6rem;
+        padding: 10px;
+      }
+
+      #lançamento article p{
+        line-height: 2.1rem;
+        padding: 18px;
       }
 
       footer{
@@ -301,11 +367,6 @@
         width: 210px;
         font-size: 2.2em;
       } 
-
-      #sobre article{
-        margin-top: 65px;
-        max-width: 670px;
-      }
   }
 
   @media screen and (min-width: 1240px){
@@ -314,14 +375,14 @@
       }
 
       #sobre article{
-        margin-top: 150px;
+        margin-top: 205px;
         max-width: 670px;
         height: 470px;
       }
 
       #lançamento{
         /* background-image: linear-gradient(to left,#282828, #7c7c7c, transparent, transparent), url(../imagens/spider-man-miles-morales.webp); */
-        margin-top: -1280px;
+        margin-top: -1650px;
     }
 
     #lançamento h2{
@@ -333,7 +394,15 @@
 
   @media screen and (min-width: 1332px){
     #lançamento{
-        margin-top: -1370px;
+        margin-top: -1560px;
+    }
+
+    #teorias img{
+      width: 580px;
+    }
+
+    #teorias p{
+      font-size: 1.6em;
     }
 
     #lançamento article{

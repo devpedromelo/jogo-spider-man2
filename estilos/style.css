@@ -376,9 +376,9 @@ article p{
   max-width: 840px;
 }
 
-/* .teorias img{
+.teorias img{
   visibility: hidden;
-} */
+}
 
 #teorias2{
   justify-items: center;
@@ -482,9 +482,9 @@ footer p {
   }
 }
 
-/* .animate__animated{
+.animate__animated{
   visibility: hidden;
-} */
+}
 
 article a{
   color: #ff8485;

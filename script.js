@@ -69,6 +69,6 @@ scrollLinks.forEach(function(link){
 });
 
 //======================implementando o scroll reveal=====================
-// window.sr = ScrollReveal({reset:true});
-// sr.reveal(".animate__animated", {duration: 1200});
-// sr.reveal("#teorias img", {duration: 1200});
+window.sr = ScrollReveal({reset:true});
+sr.reveal(".animate__animated", {duration: 1200});
+sr.reveal("#teorias img", {duration: 1200});

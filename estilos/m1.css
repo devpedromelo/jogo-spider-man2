@@ -1,9 +1,56 @@
 @charset "UTF-8";
 
+@media screen and (min-width: 300px){
+  h1{
+    font-size: 2rem;
+  }
+
+  h2{
+    font-size: 1.4rem;
+  }
+
+  header h3{
+    font-size: 1rem;
+  }
+
+  .btn-white{
+    transition: none;
+  }
+
+  article p{
+    text-align: none;
+    line-height: 1.2rem;
+    font-size: 1.4em;
+  }
+
+  #sobre article{
+    height: 405px;
+    margin-top: 216px;
+    transition: none;
+  }
+
+  #teorias{
+    height: 351vh;
+  }
+
+  #teorias p{
+    font-size: 1.4em;
+    padding: 15px;
+  }
+
+  #lançamento h2{
+    width: 215px;
+  }
+
+  #lançamento article{
+    margin-top: 260px;
+  }
+}
+
 @media screen and (min-width: 340px){
 
   h1{
-    font-size: 2.4rem
+    font-size: 2.4rem;
   }
 
   h2{
